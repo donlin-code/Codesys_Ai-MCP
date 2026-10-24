@@ -1,0 +1,42 @@
+{
+  "name": "codesys-ai-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CODESYS AI engineering toolkit with official SP22 setup and an experimental SP20 Scripting MCP adapter",
+  "type": "module",
+  "bin": {
+    "codesys-ai": "dist/src/cli.js",
+    "codesys-ai-mcp": "dist/src/mcp-server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/dev.mjs build",
+    "test": "node scripts/dev.mjs test --core",
+    "doctor": "node dist/src/cli.js doctor",
+    "package:release": "node scripts/package-release.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "files": [
+    "dist/src",
+    "scripts",
+    "examples",
+    "workflows",
+    "README.md",
+    "docs/setup-sp22.md",
+    "docs/data-format.md",
+    "docs/cylinder-validation.md",
+    "docs/acceptance.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donlin-code/donlinxg_MCP.git"
+  }
+}

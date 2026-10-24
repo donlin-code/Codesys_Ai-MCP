@@ -1,0 +1,222 @@
+[
+  {
+    "path": ".github/workflows/ci.yml",
+    "sha256": "6886d647ddefd90bba67a3670b26264879617fab953f4c54fb97b78af070b5c1"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "cbe555e9c4b9f4ead54fd75be67d15774e1e3366ec1bc7faf5471964e9a5ec10"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "798d9d0a3505a15bfd8a612af36dd312f3b50fcd2d89136c87d005aebc6e3f65"
+  },
+  {
+    "path": "config/mcp.example.json",
+    "sha256": "be8b9c1af7af1f16f2698a1b5c10d764ed4fa18e9352213ea03ac37464a6e85d"
+  },
+  {
+    "path": "distribution/acceptance.md",
+    "sha256": "76d4c7d4a35354a56ad605bf9a53c1e565f086f6f720fe32828545c5b2ce2cda"
+  },
+  {
+    "path": "distribution/CONNECT.md",
+    "sha256": "4542977fa5c774905097889119f8129d87ddf7ff3efceaf4a93c1fd358dbd02f"
+  },
+  {
+    "path": "distribution/mcp.example.json",
+    "sha256": "be8b9c1af7af1f16f2698a1b5c10d764ed4fa18e9352213ea03ac37464a6e85d"
+  },
+  {
+    "path": "distribution/README.en.md",
+    "sha256": "5207b7788302f7cf92c604fcefa83d7d014031b74f7e8ac1f546fee17b1ff2a9"
+  },
+  {
+    "path": "distribution/README.md",
+    "sha256": "e43df726746b0a0f9c8eb5c5141800be58bee1c9a26381e6b33cbf05ea395744"
+  },
+  {
+    "path": "distribution/setup-sp20.md",
+    "sha256": "688c0679ccdb97df0f9241d91bbf318cc71a9e2258c1390f534785b8655397dc"
+  },
+  {
+    "path": "docs/acceptance.md",
+    "sha256": "76d4c7d4a35354a56ad605bf9a53c1e565f086f6f720fe32828545c5b2ce2cda"
+  },
+  {
+    "path": "docs/data-format.md",
+    "sha256": "758c5d5e98f3295dd81b5b3ad6b16d3fb10579ffdec10a9880c4004485977d42"
+  },
+  {
+    "path": "docs/setup-sp20.md",
+    "sha256": "688c0679ccdb97df0f9241d91bbf318cc71a9e2258c1390f534785b8655397dc"
+  },
+  {
+    "path": "docs/sp20-bridge-protocol.md",
+    "sha256": "41b4b6d3c6e690256b6d1527734df4e587f2aa87ff40f1e89bc413fb21e61c99"
+  },
+  {
+    "path": "examples/smoke/object-list.md",
+    "sha256": "37c0a2352ac9e3cecac2f83e9967a0960b9cfba95e2660cf7bfcf9a01e14e8f4"
+  },
+  {
+    "path": "examples/smoke/objects/GVL_McpSmoke.declaration.st",
+    "sha256": "0faca81607e815b6d6700a4b19b8c5385f5cb810201d251d211b1ef779046228"
+  },
+  {
+    "path": "examples/smoke/objects/PRG_McpSmoke.declaration.st",
+    "sha256": "d846ecb9f8ce3a7914bb9510e7af26d15a3cbdd5e7f2413fab9649e4d85a4b9f"
+  },
+  {
+    "path": "examples/smoke/objects/PRG_McpSmoke.implementation.st",
+    "sha256": "382c298844cc953fefb7b8b8fa231d0fa7c0b168628bdbc79d52ad2401ddeb7f"
+  },
+  {
+    "path": "examples/smoke/objects/ST_CylinderCmd.declaration.st",
+    "sha256": "2de73e0d603e8413d0d2d204b4e0f85e29d63555211b5af4b58776b72967645d"
+  },
+  {
+    "path": "examples/smoke/objects.json",
+    "sha256": "380631f9c5d71113d2364091bacf84739b67a2cec94dde1e054a976d128c3687"
+  },
+  {
+    "path": "package-lock.json",
+    "sha256": "4bff94e91f9bf0e343d47ba52a2c149432b977af7b19edf35b0723d5bf6b049c"
+  },
+  {
+    "path": "package.json",
+    "sha256": "2e0a70f99ee03b33550e6ec4cd94b9b29dcdef750a53b23490d64b94742232aa"
+  },
+  {
+    "path": "README.en.md",
+    "sha256": "5207b7788302f7cf92c604fcefa83d7d014031b74f7e8ac1f546fee17b1ff2a9"
+  },
+  {
+    "path": "README.md",
+    "sha256": "e43df726746b0a0f9c8eb5c5141800be58bee1c9a26381e6b33cbf05ea395744"
+  },
+  {
+    "path": "scripts/Configure-CodesysMcp.ps1",
+    "sha256": "498e865df93a484f8376825ebec24f334e7cefb9894ffc352e8363e3912e35ec"
+  },
+  {
+    "path": "scripts/Configure-SP20Mcp.ps1",
+    "sha256": "967e0239c1ef3456de50d222ccb8b3ff18a1891b55c5df37d5d21c935224957c"
+  },
+  {
+    "path": "scripts/dev.mjs",
+    "sha256": "929b1f1c4a934f6be858dd62855990177123538376809bc51993107440544155"
+  },
+  {
+    "path": "scripts/package-release.mjs",
+    "sha256": "0d8db2396ae43f0d0cffd19af8c734156f26ee74bcebaf23b780a5d49dd60d80"
+  },
+  {
+    "path": "scripts/sp20_bridge.py",
+    "sha256": "1130fcfd192946b8a24ee191329e4ea729acf29e6b8e53727ae8997a45f8f7f7"
+  },
+  {
+    "path": "scripts/Start-CodesysAI.ps1",
+    "sha256": "29651649276f17359aa70f4feacee2e45d4b84b8845673d011a78e6b16299cd6"
+  },
+  {
+    "path": "scripts/Start-SP20Bridge.ps1",
+    "sha256": "86f95f2d5692bfa74f86f76bb1fe27b38b4e5bc140c0fa3e909685fc8e7da6f4"
+  },
+  {
+    "path": "src/batch.ts",
+    "sha256": "d45175cdebf7cb98ee78bfd4fdae974b70728b72bc454c096313a927032a5ea5"
+  },
+  {
+    "path": "src/bridge-client.ts",
+    "sha256": "d90318e5e421eb8c9413c7dcfbee11d6bb7e14d10247502830a919424db537c5"
+  },
+  {
+    "path": "src/capture.ts",
+    "sha256": "3a058f5ee9aebeb6b445aa0a5bf7ef6c8cdb4a5a6264497288fc49a7bda6a2b7"
+  },
+  {
+    "path": "src/cli.ts",
+    "sha256": "92165029289734ef6b5cd3d80a9e9e768210aad760d08034bd6c881ac32aa517"
+  },
+  {
+    "path": "src/diff.ts",
+    "sha256": "704ed3db14b9e6d4d77cf3b2bbae673aeabc3f81c86aa6363a6adfd4b6d805bc"
+  },
+  {
+    "path": "src/doctor.ts",
+    "sha256": "456070d656225a28cf31e1986c87e0cf3923406728fdab8cd662bebb39e842fd"
+  },
+  {
+    "path": "src/evidence.ts",
+    "sha256": "9ec6b63c378e7ce91275fbd912e0cb98b8090f351071ec1e0057e8e234c34251"
+  },
+  {
+    "path": "src/io.ts",
+    "sha256": "6e6553703fb7a6479ff7093c02255022b8952bb1764608159974c9a82516f1df"
+  },
+  {
+    "path": "src/mcp-server.ts",
+    "sha256": "2e3f2dff3826136b08c100e156eeef90c6a46f332f45fc2434468e765161348f"
+  },
+  {
+    "path": "src/model.ts",
+    "sha256": "f6eb95811de127dc1e8de89f16a62f5cb33d8c338dcf5e52557fff61206e0f72"
+  },
+  {
+    "path": "src/snapshot.ts",
+    "sha256": "49df1aa85cb9eed721001e398b21e85bc444e57936d4681619b2acb0a6409e28"
+  },
+  {
+    "path": "tests/batch-bridge.test.ts",
+    "sha256": "c21f2033fb1c58db4b54b639fa6994b647eef8771c48a4f11a13b5d35c57c33b"
+  },
+  {
+    "path": "tests/batch.test.ts",
+    "sha256": "5326b4787ab1710cbed555e4eddd185b3ace7474646c8994fbf1fbc5faa9cc69"
+  },
+  {
+    "path": "tests/bridge-client.test.ts",
+    "sha256": "74247c2b203800332edb3396c31f5e86fcea937c7b3045caefdfc493fab4f7d3"
+  },
+  {
+    "path": "tests/capture.test.ts",
+    "sha256": "ff9067a35ff31725c2c627f602305abf02a8a160f869c3065564bdcb1e49affc"
+  },
+  {
+    "path": "tests/cli.test.ts",
+    "sha256": "1d62f9a19d7699ee0289c80c359bf21781434746fb1ea5d4a67739881ce71e5d"
+  },
+  {
+    "path": "tests/doctor.test.ts",
+    "sha256": "7cd104751798fcb2e851bedd89306810847f00015c004571b469709d96f99403"
+  },
+  {
+    "path": "tests/snapshot.test.ts",
+    "sha256": "ba20496b22e70d20781e264b7103e337637f45de05ae47ca2bd8932848ad549e"
+  },
+  {
+    "path": "tests/sp20-bridge-contract.py",
+    "sha256": "50bdd3d9c66aa30e3c0ada6f46ed4ac706e0a82773d079abd718c5c2ca1aaefd"
+  },
+  {
+    "path": "tsconfig.json",
+    "sha256": "59cf8854a78c2141b0044d074b2d68517f5baffaf376357008e84c4b3cccf3a3"
+  },
+  {
+    "path": "workflows/ANALYZE.md",
+    "sha256": "7916126f0fe84407a297278dea4458c2e861d97f22849f7740723f715b05ce40"
+  },
+  {
+    "path": "workflows/CONNECT.md",
+    "sha256": "4542977fa5c774905097889119f8129d87ddf7ff3efceaf4a93c1fd358dbd02f"
+  },
+  {
+    "path": "workflows/EDIT.md",
+    "sha256": "14f69033597b2314191bb6f9cc1580b51cada953bd0f7b883696bb5273441aa7"
+  },
+  {
+    "path": "VALIDATION.json",
+    "sha256": "c3ffdb3b81a0ac0d0965d85d2b03f6c3c7d0a18c96bde6e94a18abca8dc85ee3"
+  }
+]

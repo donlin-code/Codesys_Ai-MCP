@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "donlinxg-codesys-sp20": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Tools\\donlinxg_MCP\\dist\\src\\mcp-server.js",
+        "--config",
+        "C:\\Tools\\donlinxg_MCP\\artifacts\\sp20-bridge\\current-session.json"
+      ]
+    }
+  }
+}

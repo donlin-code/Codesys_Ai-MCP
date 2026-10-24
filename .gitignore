@@ -1,0 +1,13 @@
+node_modules/
+dist/
+artifacts/
+tmp/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+*.project
+*.projectarchive
+*.opt
+*.auxiliary
+.env
+.env.*

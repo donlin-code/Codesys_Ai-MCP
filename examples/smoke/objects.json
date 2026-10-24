@@ -1,0 +1,67 @@
+{
+  "format": "codesys-object-bundle",
+  "formatVersion": 1,
+  "name": "smoke",
+  "nativeProject": false,
+  "ideImported": false,
+  "compiled": false,
+  "plcSimulationRun": false,
+  "targetApplication": "an explicitly selected isolated sandbox Application",
+  "officialMcpBinding": "Discover installed tools/list and bind fields to its actual schema; this JSON is not an MCP tools/call argument.",
+  "requiredLibraries": [],
+  "objectCount": 3,
+  "objects": [
+    {
+      "id": "ST_CylinderCmd",
+      "name": "ST_CylinderCmd",
+      "kind": "DUT",
+      "parent": null,
+      "dutType": "Structure",
+      "declaration": "TYPE ST_CylinderCmd :\nSTRUCT\n    xExtend  : BOOL;       (* 伸出 *)\n    xRetract : BOOL;       (* 缩回 *)\n    xStop    : BOOL;       (* 停止（三位阀）*)\nEND_STRUCT\nEND_TYPE\n",
+      "implementation": null,
+      "source": {
+        "file": "src/02_DUT/ST_Cmd.st",
+        "line": 25,
+        "endLine": 31,
+        "fileSha256": "97cc308c621b2bf6daf9bd6ad5bc30505db59c59517755abb16dc7edb621cb1d"
+      },
+      "dependencies": [],
+      "declarationSha256": "2de73e0d603e8413d0d2d204b4e0f85e29d63555211b5af4b58776b72967645d",
+      "implementationSha256": null
+    },
+    {
+      "id": "GVL_McpSmoke",
+      "name": "GVL_McpSmoke",
+      "kind": "GVL",
+      "parent": null,
+      "declaration": "{attribute 'qualified_only'}\nVAR_GLOBAL\n    stCommand : ST_CylinderCmd;\n    stEcho : ST_CylinderCmd;\n    diScanCount : DINT;\nEND_VAR\n",
+      "implementation": null,
+      "source": {
+        "generated": true,
+        "purpose": "isolated memory-only acceptance fixture"
+      },
+      "dependencies": [
+        "ST_CylinderCmd"
+      ],
+      "declarationSha256": "0faca81607e815b6d6700a4b19b8c5385f5cb810201d251d211b1ef779046228",
+      "implementationSha256": null
+    },
+    {
+      "id": "PRG_McpSmoke",
+      "name": "PRG_McpSmoke",
+      "kind": "PROGRAM",
+      "parent": null,
+      "declaration": "PROGRAM PRG_McpSmoke\nVAR CONSTANT\n    C_INCREMENT : DINT := 1;\nEND_VAR\n",
+      "implementation": "GVL_McpSmoke.stEcho := GVL_McpSmoke.stCommand;\nIF GVL_McpSmoke.diScanCount >= 2147483640 THEN\n    GVL_McpSmoke.diScanCount := 0;\nELSE\n    GVL_McpSmoke.diScanCount := GVL_McpSmoke.diScanCount + C_INCREMENT;\nEND_IF\n",
+      "source": {
+        "generated": true,
+        "purpose": "isolated memory-only acceptance fixture"
+      },
+      "dependencies": [
+        "GVL_McpSmoke"
+      ],
+      "declarationSha256": "d846ecb9f8ce3a7914bb9510e7af26d15a3cbdd5e7f2413fab9649e4d85a4b9f",
+      "implementationSha256": "382c298844cc953fefb7b8b8fa231d0fa7c0b168628bdbc79d52ad2401ddeb7f"
+    }
+  ]
+}
