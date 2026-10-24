@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "checkedAt": "2026-10-24T09:41:59.044045+00:00",
+  "nodeTests": {
+    "passed": 76,
+    "failed": 0,
+    "scope": "clean staged source after npm ci"
+  },
+  "pythonBridgeContracts": {
+    "passed": 36,
+    "failed": 0,
+    "scope": "ScriptEngine double, not live IDE"
+  },
+  "runtimeCliHelp": "passed",
+  "manifestHashes": "passed",
+  "publicationExclusions": "passed: no user projects, local evidence, active IPC/session files or development dependencies in runtime",
+  "liveIdeTestInThisPackagingRun": false
+}

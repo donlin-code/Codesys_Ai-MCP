@@ -1,0 +1,14 @@
+[
+  {
+    "file": "donlinxg_MCP-0.1.0-source.zip",
+    "bytes": 122245,
+    "sha256": "3f693cd5c42edcf27ec5cd5768cf43d4f9f5e63248b014d49f10a1d954f6c928",
+    "files": 54
+  },
+  {
+    "file": "donlinxg_MCP-0.1.0-runtime.zip",
+    "bytes": 5456424,
+    "sha256": "840097e42d7c2e87b4c3de3da69c1cc8f4dd6b78978d4ba7fac03febe2842f31",
+    "files": 3741
+  }
+]
