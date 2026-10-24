@@ -1,4 +1,4 @@
-# 🔧 Donlinxg MCP
+# 🔧 Codesys - Ai MCP
 
 #### 让 AI 读懂 CODESYS 工程，也能把修改写回工程里
 
