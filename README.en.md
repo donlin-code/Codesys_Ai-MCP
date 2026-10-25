@@ -1,3 +1,5 @@
+> **v0.3.0-dev.1 development build**: [ZIP downloads](https://github.com/donlin-code/Codesys_Ai-MCP/releases/tag/v0.3.0-dev.1) · [English guide](https://github.com/donlin-code/Codesys_Ai-MCP/releases/download/v0.3.0-dev.1/v03-guide.en.md) · [中文](https://github.com/donlin-code/Codesys_Ai-MCP/releases/download/v0.3.0-dev.1/v03-guide.md) · [Acceptance](https://github.com/donlin-code/Codesys_Ai-MCP/releases/download/v0.3.0-dev.1/acceptance-v03.md). Lightweight MCP, generic CLI, source indexing, worker diagnostics, selected-object refresh and official SP22 read-only discovery. **Official installation crashed in cpsrt.dll; native SP22 adaptation and three-route comparisons remain blocked. SP20 stays the backend.** Download the named core (~6.9 MB), full runtime (~57.1 MB) or source ZIP. Expanded repository sources and the content below are historical.
+
 # PLC Artisan AI · PLC工匠 AI · v0.2
 
 **Read, analyze and edit CODESYS ST projects with AI, with a local workbench for source review and approval.**

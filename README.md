@@ -1,3 +1,5 @@
+> **v0.3.0-dev.1 开发版已发布**：[下载 ZIP](https://github.com/donlin-code/Codesys_Ai-MCP/releases/tag/v0.3.0-dev.1) · [中文指南](https://github.com/donlin-code/Codesys_Ai-MCP/releases/download/v0.3.0-dev.1/v03-guide.md) · [English](https://github.com/donlin-code/Codesys_Ai-MCP/releases/download/v0.3.0-dev.1/v03-guide.en.md) · [验收矩阵](https://github.com/donlin-code/Codesys_Ai-MCP/releases/download/v0.3.0-dev.1/acceptance-v03.md)。新增轻量 MCP、通用 CLI、源码索引、工作线程诊断、选中对象刷新及官方 SP22 只读探测。**官方安装器在 cpsrt.dll 中崩溃，SP22 工程适配及三路线性能对比尚未完成，默认仍保留 SP20。** 核心包约6.9 MB，完整运行包约57.1 MB；不要使用 GitHub 自动生成的 Source code 包代替明确命名的发行 ZIP。展开源码仍是历史版本。
+
 # PLC工匠 AI · PLC Artisan AI · v0.2
 
 **让 AI 读取、分析和修改 CODESYS ST 工程，并在本地工作台审阅全过程。**
